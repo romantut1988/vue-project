@@ -3,5 +3,5 @@ import MyHello from './components/MyHello.vue'
 </script>
 
 <template>
-  <MyHello />
+  <h1>HELLO</h1>
 </template>
