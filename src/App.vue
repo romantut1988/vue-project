@@ -1,7 +1,9 @@
 <script setup>
-import MyHello from './components/MyHello.vue'
+import Header from './components/Header.vue'
 </script>
 
 <template>
-  <h1>HELLO</h1>
+  <div class="w-4/5 m-auto bg-white h-screen rounded-xl drop-shadow-xl mt-14">
+    <Header />
+  </div>
 </template>
