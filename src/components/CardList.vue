@@ -10,7 +10,7 @@ const onclickAdd = () => { alert("Add!") }
       title="Мужские Кроссовки Nike Blazer Mid Suede"
       :price="5000"
       imageUrl="/sneakers/sneakers-1.jpg"
-      :is-favorite="false"
+      :isFavorite="false"
       :onclickAdd="onclickAdd"
     />
   </div>

@@ -22,7 +22,7 @@ const onclickAdd = () => {
       :src="!isFavorite ? '/like-1.svg' : '/like-2.svg'"
       alt="like 1"
       class="absolute top-8 left-8"
-      @click="onClick"
+      @click="onclickFavorite"
     />
     <img :src="imageUrl" alt="Sneaker" />
     <p class="mt-2">{{ title }}</p>
